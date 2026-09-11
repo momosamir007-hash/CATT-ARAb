@@ -1699,9 +1699,9 @@ else:
             mistral_model_id = st.selectbox(
                 "اختر النموذج:",
                 [
-                    "pixtral-large-latest",
+        
                     "mistral-large-latest",
-                    "mistral-medium-latest",
+                    "open-mistral-nemo",
                     "mistral-small-latest",
                 ],
                 help="Pixtral Large و Mistral Large هي أحدث وأقوى الموديلات للغة العربية (124B)"
